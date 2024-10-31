@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    background-color: rgb(240, 240, 240);
+    margin: 3rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(34, 1fr);
+    grid-template-rows: repeat(12, 1fr); 
+    grid-gap: 1.4rem; 
+    width: 60rem; 
+    height: 45rem;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+    
+}

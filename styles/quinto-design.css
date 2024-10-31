@@ -1,0 +1,27 @@
+.quinto-design { grid-column: 27 / 18; grid-row: 9 / 5; }
+
+.quinto-design {
+    background-color: rgba(255, 191, 73, 0.87);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Permite posicionamento absoluto da imagem */
+    overflow: hidden;
+    padding: 1rem 1rem 0 1rem;
+    gap: 1rem;
+}
+
+.quinto-design-item {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -0.1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 1.7rem;
+    
+}
+
+.quinto-design-img {
+    width: 13rem;
+}
+

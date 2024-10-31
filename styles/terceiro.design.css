@@ -1,0 +1,37 @@
+.terceiro-design { grid-column: 27 / 35; grid-row: 1 / 9; }
+
+.terceiro-design {
+    background-color: hsl(255, 100%, 90%);
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0; /* Remove padding à direita para permitir que a imagem encoste */
+    gap: 1rem;
+    position: relative; /* Permite posicionamento absoluto da imagem */
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.terceiro-design-item {
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: -2px;
+    font-size: 27px;
+    line-height: 1.5rem;
+    font-weight: 600;
+    max-width: 78%;
+}
+
+.terceiro-design-img {
+    width: 19rem;
+    object-fit: cover; /* Ajusta a imagem ao contêiner */
+    position: relative; /* Mantém a imagem dentro do fluxo normal */
+
+}
+
+.terceiro-design-item-dois {
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 80%;
+}
+

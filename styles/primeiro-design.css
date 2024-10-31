@@ -1,0 +1,29 @@
+.primeiro-design { grid-column: 1 / 9; grid-row: 1 / 7; }
+
+.primeiro-design {
+    background-color: antiquewhite;
+    letter-spacing: -3px;  
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.primeiro-design-item {
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.8rem;
+}
+
+.container-negrito-um {
+    color: hsl(256, 67%, 59%);
+    font-weight: 600;
+    font-style: italic; /* Inclina a fonte */
+}
+
+.primeiro-design-img {
+    max-width: 100%;
+}

@@ -1,0 +1,24 @@
+.sexto-design { grid-column: 1 / 9; grid-row: 7 / 13; }
+
+.sexto-design {
+    background-color: rgba(255, 191, 73, 0.87);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 3rem;
+}
+
+.sexto-design-item {
+    font-weight: 600;
+    font-size: 33px;
+    letter-spacing: -0.1rem;
+    line-height: 1.7rem;
+}
+
+.sexto-design-img {
+    max-width: 100%;
+}
+

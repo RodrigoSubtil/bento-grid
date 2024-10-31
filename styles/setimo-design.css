@@ -1,0 +1,26 @@
+.setimo-design  { grid-column: 9 / 18; grid-row: 9 / 13; }
+
+.setimo-design {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.setimo-design-item {
+    color: black;
+    font-size: 57px;
+    font-weight: 600;
+}
+
+.setimo-design-item-dois {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+
+.setimo-design-img {
+    max-width: 10rem;
+    padding-top: 2rem;
+}
